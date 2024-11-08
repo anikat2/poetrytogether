@@ -87,7 +87,9 @@
   font-weight: 400;
   font-style: normal;
 }
-
+.desc{
+  font-size: 1.1vw;
+}
 #cups {
   margin-top: 10vw;
 }
