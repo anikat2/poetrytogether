@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Dekko&family=Major+Mono+Display&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Tiny5&display=swap');
+
+.App {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  background-color: #d9d9d9;
+  color: black;
+  padding: 0 5vw;
+}
+
+.leftColumn {
+  flex: 1;
+  margin-right: 2vw;
+}
+
+.body {
+  flex: 2;
+  margin: 0 auto;
+  height: 80vh;
+  width: 60vw;
+  text-align: center;
+  background-color: transparent;
+}
+
+.rightColumn {
+  flex: 1;
+  margin-left: 2vw;
+}
+
+.title {
+  font-size: 3vw;
+}
+
+.poem {
+  background-color: white;
+  border: 2px solid black;
+  font-family: "Dekko", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5vw;
+}
+
+#input {
+  border-radius: 2vw;
+  margin-top: 1vw;
+  border: 1px solid black;
+  width: 20vw;
+  font-size: 1.5vw;
+  background-color: #f8def3;
+  font-family: "Dekko", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inputfield {
+  background-color: white;
+  height: 6vw;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.options {
+  text-align: center;
+  margin-bottom: 1vw;
+}
+
+#skip {
+  background-color: #f8def3;
+  color: black;
+  border-radius: 2vw;
+  font-size: 2vw;
+  font-family: "Dekko", cursive;
+  font-weight: 400;
+  font-style: normal;
+  border: 1px solid black;
+}
+
+#submitButton {
+  background-color: #38b6ff;
+  color: black;
+  border-radius: 2vw;
+  font-size: 1.5vw;
+  border: 1px solid black;
+  font-family: "Dekko", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#cups {
+  margin-top: 10vw;
+}
+
+.question-display {
+  font-size: 1.5em;
+  margin-top: 1em;
+  color: #f7f4f4;
+}
