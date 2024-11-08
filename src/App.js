@@ -115,6 +115,7 @@ const App = () => {
       </div>
       <div className='body'>
         <h1 className="title">poetry is not a solitary art.</h1>
+        <h10>you aren't alone in what you feel—this website invites you to explore and share. reflect, connect, and contribute by adding to others' poems or creating your own.</h10>
         <br />
         <div className="options">
           <button id="skip" onClick={createNewPoem}>🔃</button>
